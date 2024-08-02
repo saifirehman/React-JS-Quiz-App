@@ -1,0 +1,98 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #b3d3f5, #d3c7f5);
+  font-family: Arial, sans-serif;
+}
+
+.Container {
+  width: 650px;
+  background: white;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Container hr {
+  height: 2px;
+  border: none;
+  background: #707070;
+}
+
+.Container h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.Container h2 {
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.Container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Container ul li {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 15px;
+  border: 1px solid #686868;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.Container ul li:hover {
+  background: #f0f0f0;
+}
+
+.Container button {
+  margin: 20px auto 0;
+  width: 250px;
+  height: 50px;
+  background: #553f9a;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.Container button:hover {
+  background: #432c81;
+}
+
+.Container .index {
+  text-align: center;
+  font-size: 16px;
+  color: #707070;
+  margin-top: 10px;
+}
+.Container .correct {
+  background: #dffff2;
+  border-color: #00d397;
+}
+.Container .wrong {
+  background: #ffebed;
+  background-color: #ff4a4a;
+}
